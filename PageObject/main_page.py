@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-import time
 from selenium.webdriver.common.by import By
 from PageObject.base_page import BasePage
 from PageObject.contact import Contact

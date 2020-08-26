@@ -10,6 +10,5 @@ class TestSelenium:
         self.main.quit()
 
     def test_add_department(self):
-        # self.main.goto_contact().goto_add_department()
-        # assert "人力资源部" in self.main.goto_contact().get_department()
-        assert self.main.goto_contact().get_department() == "云BU"
+        # self.main.goto_contact().add_department()
+        assert "云BU" in self.main.goto_contact().get_department()
